@@ -473,87 +473,11 @@
     }
 
     footer {
-<<<<<<< HEAD
         padding: 1.2em;
     }
 
     footer p {
         font-size: 0.8rem;
-=======
-        padding: 2.4em 6vw 1.6em;
-    }
-
-    .footer-content {
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 1.2rem;
-        text-align: center;
-    }
-
-    .footer-logo {
-        margin: 0 auto 0.6rem;
-    }
-
-    .footer-section p,
-    .footer-section a {
-        font-size: 0.9rem;
-        margin-bottom: 0.4rem;
-        text-align: center;
-        width: 100%;
-    }
-
-    .footer-section a {
-        justify-content: center;
-    }
-
-    .footer-section h3 {
-        font-size: 1.05rem;
-    }
-
-    .footer-section h4 {
-        font-size: 0.82rem;
-    }
-
-    .footer-map iframe {
-        height: 150px;
-    }
-
-    .footer-bottom {
-        padding-top: 0.9rem;
-    }
-
-    .footer-bottom p {
-        font-size: 0.82rem;
-    }
-
-    .services {
-        padding: 4em 6vw 4.6em;
-    }
-
-    .services h2 {
-        font-size: clamp(1.6rem, 6vw, 2.1rem);
-    }
-
-    .services-list {
-        grid-template-columns: 1fr;
-        gap: 1rem;
-    }
-
-    .service-item {
-        padding: 1.4rem 1.2rem;
-        text-align: center;
-    }
-
-    .services-cta {
-        width: min(92%, 340px);
-        margin: 0.6rem auto 0;
-    }
-
-    .services-btn {
-        width: 100%;
-        max-width: 100%;
-        box-sizing: border-box;
->>>>>>> fca66d9 (Branch)
     }
 }
 
