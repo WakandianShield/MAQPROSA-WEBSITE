@@ -9,7 +9,7 @@
 body {
     margin: 0;
     font-family: var(--font-family);
-    background-color: rgba(20, 40, 47, 0.92);
+    background-color: #182328;
     color: var(--font-color);
 }
 
