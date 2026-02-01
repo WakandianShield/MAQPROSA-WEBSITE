@@ -1,0 +1,392 @@
+@media screen and (max-width: 1024px) {
+    .hero-us {
+        min-height: 80vh;
+    }
+    
+    .hero-content-us {
+        width: 92vw;
+        min-height: 65vh;
+        padding: 6em 0 2em;
+    }
+    
+    .hero-text-us {
+        max-width: 680px;
+        margin-left: 2vw;
+    }
+    
+    .hero-text-us h1 {
+        font-size: clamp(2.5rem, 4.5vw, 3.8rem);
+    }
+    
+    .hero-text-us p {
+        font-size: clamp(1.1rem, 2vw, 1.3rem);
+    }
+    
+    .about-grid {
+        gap: 2.5rem;
+    }
+    
+    .principles-grid {
+        gap: 2rem;
+    }
+    
+    .principle-card {
+        padding: 2.5rem 2rem;
+    }
+    
+    .clients-grid {
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+        gap: 2.5rem;
+    }
+    
+    .client-modern-item {
+        width: 180px;
+        height: 90px;
+        padding: 1.8rem;
+    }
+    
+    .client-modern-logo {
+        max-width: 140px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hero-us {
+        min-height: 75vh;
+        padding: 2rem 0;
+    }
+    
+    .hero-content-us {
+        width: 94vw;
+        min-height: auto;
+        padding: 5em 0 1.5em;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .hero-text-us {
+        max-width: 100%;
+        margin-left: 0;
+        align-items: center;
+    }
+    
+    .hero-text-us p {
+        padding-left: 0;
+        border-left: none;
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+    .hero-text-us h1::after {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    .hero-actions-us {
+        justify-content: center;
+        padding-left: 0;
+    }
+    
+    .hero-btn {
+        padding: 1em 2em;
+        font-size: 1rem;
+    }
+    
+    .about-us {
+        padding: 4rem 5vw;
+    }
+    
+    .about-grid {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+    
+    .about-col-left {
+        order: 2;
+    }
+    
+    .about-col-right {
+        order: 1;
+    }
+    
+    .about-main-image {
+        aspect-ratio: 16/9;
+    }
+    
+    .about-stats {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .services-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .principles {
+        padding: 6rem 5vw 5rem;
+    }
+    
+    .principles-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    
+    .principle-card {
+        padding: 2.5rem;
+    }
+    
+    .clients-modern {
+        padding: 5rem 5vw;
+    }
+    
+    .clients-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+    
+    .client-modern-item {
+        width: 100%;
+        max-width: 220px;
+        margin: 0 auto;
+    }
+    
+    .clients {
+        margin-top: 2em;
+        padding: 1.2em 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .hero-us {
+        min-height: 70vh;
+    }
+    
+    .hero-content-us {
+        padding: 4em 0 1.5em;
+    }
+    
+    .hero-text-us h1 {
+        font-size: clamp(2rem, 6vw, 2.5rem);
+    }
+    
+    .hero-text-us p {
+        font-size: clamp(1rem, 4vw, 1.1rem);
+        max-width: 35ch;
+    }
+    
+    .hero-actions-us {
+        flex-direction: column;
+        gap: 1rem;
+        width: 100%;
+        max-width: 300px;
+    }
+    
+    .hero-btn {
+        width: 100%;
+        padding: 1em 1.5em;
+    }
+    
+    .hero-kicker {
+        font-size: 0.8rem;
+    }
+    
+    .about-us {
+        padding: 3rem 4vw;
+    }
+    
+    .about-intro h2 {
+        font-size: clamp(1.8rem, 6vw, 2.2rem);
+    }
+    
+    .about-intro p {
+        font-size: clamp(0.95rem, 4vw, 1.05rem);
+    }
+    
+    .about-stats {
+        grid-template-columns: 1fr;
+        gap: 0.8rem;
+    }
+    
+    .stat-card {
+        padding: 1.2rem 1rem;
+    }
+    
+    .stat-num {
+        font-size: 1.8rem;
+    }
+    
+    .about-highlight {
+        padding: 1.5rem 1.2rem;
+    }
+    
+    .about-highlight h3 {
+        font-size: clamp(1.1rem, 5vw, 1.3rem);
+    }
+    
+    .about-highlight p {
+        font-size: clamp(0.95rem, 4vw, 1.05rem);
+    }
+    
+    .service-box {
+        padding: 1.5rem 1.2rem;
+    }
+    
+    .service-num {
+        font-size: 1.8rem;
+    }
+    
+    .service-box h4 {
+        font-size: clamp(1rem, 4.5vw, 1.1rem);
+    }
+    
+    .service-box p {
+        font-size: clamp(0.9rem, 4vw, 1rem);
+    }
+    
+    .principles {
+        padding: 4rem 4vw 3rem;
+    }
+    
+    .principles-header h2 {
+        font-size: clamp(1.6rem, 6vw, 2rem);
+    }
+    
+    .principles-lead {
+        font-size: clamp(0.95rem, 4vw, 1.05rem);
+    }
+    
+    .principle-card {
+        padding: 2rem 1.5rem;
+    }
+    
+    .principle-card h3 {
+        font-size: clamp(1.1rem, 5vw, 1.3rem);
+    }
+    
+    .principle-card p {
+        font-size: clamp(0.95rem, 4vw, 1.05rem);
+    }
+    
+    .clients-modern {
+        padding: 4rem 4vw;
+    }
+    
+    .clients-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    
+    .client-modern-item {
+        max-width: 200px;
+        height: 85px;
+        padding: 1.5rem;
+    }
+    
+    .client-modern-logo {
+        max-width: 130px;
+    }
+    
+    .hero-btn-us {
+        align-self: center;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .hero-us {
+        min-height: 65vh;
+    }
+    
+    .hero-content-us {
+        padding: 3.5em 0 1em;
+    }
+    
+    .hero-text-us h1 {
+        font-size: 1.8rem;
+    }
+    
+    .hero-text-us p {
+        font-size: 0.95rem;
+    }
+    
+    .hero-btn {
+        padding: 0.9em 1.2em;
+        font-size: 0.95rem;
+    }
+    
+    .about-us {
+        padding: 2.5rem 3vw;
+    }
+    
+    .principles {
+        padding: 3rem 3vw 2.5rem;
+    }
+    
+    .principle-card {
+        padding: 1.8rem 1.2rem;
+    }
+    
+    .clients-modern {
+        padding: 3rem 3vw;
+    }
+    
+    .client-modern-item {
+        max-width: 180px;
+        height: 80px;
+        padding: 1.2rem;
+    }
+    
+    .client-modern-logo {
+        max-width: 110px;
+    }
+}
+
+@media screen and (max-width: 480px) and (max-height: 765px) {
+    .hero-us {
+        min-height: 85vh;
+    }
+    
+    .hero-content-us {
+        padding-top: 3.5em;
+        padding-bottom: 1em;
+    }
+    
+    .hero-text-us h1 {
+        font-size: 1.8rem;
+        margin: 0.1em 0 0.3em;
+    }
+    
+    .hero-text-us p {
+        font-size: 0.95rem;
+        line-height: 1.5;
+    }
+    
+    .hero-actions-us {
+        margin: 1.5rem 0 0;
+    }
+    
+    .about-us {
+        padding: 2.5rem 4vw;
+    }
+    
+    .principles {
+        padding: 3rem 4vw 2.5rem;
+    }
+}
+
+@media screen and (max-width: 480px) and (min-height: 766px) {
+    .hero-us {
+        min-height: 75vh;
+    }
+    
+    .hero-content-us {
+        padding-top: 5em;
+        padding-bottom: 2em;
+    }
+    
+    .hero-text-us {
+        gap: 1.2rem;
+    }
+    
+    .hero-actions-us {
+        margin: 2rem 0 0;
+    }
+}
