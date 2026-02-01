@@ -887,7 +887,7 @@
 
 @media screen and (max-height: 765px) and (max-width: 768px) {
     .hero-content {
-        padding-top: 10vh;
+        padding-top: 5em;
         gap: 0.4rem;
     }
 
