@@ -888,6 +888,9 @@
 @media screen and (max-height: 765px) and (max-width: 768px) {
     .hero-content {
         gap: 0.4rem;
+        margin-bottom: 0 !important;
+        margin-top: 0 !important;
+
     }
 
     .hero-text {
@@ -908,7 +911,7 @@
 
     .hero-kicker {
         font-size: 0.7rem;
-        margin-top: 0.5rem;
+        margin-top: 0 !important;
     }
 
     .hero-actions {
@@ -960,6 +963,8 @@
     }
 
     .hero-content {
+        margin-bottom: 0 !important;
+        margin-top: 0 !important;
         gap: 0.3rem;
     }
 
@@ -980,7 +985,7 @@
 
     .hero-kicker {
         font-size: 0.65rem;
-        margin-top: 0.3rem;
+        margin-top: 0 !important;
     }
 
     .hero-actions {
