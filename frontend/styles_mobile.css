@@ -896,6 +896,7 @@
         margin-bottom: 0 !important;
         margin-top: 0 !important;
         justify-content: center;
+        align-self: center;
     }
 
     .hero-text {
@@ -919,7 +920,7 @@
 
     .hero-kicker {
         font-size: 0.65rem;
-        margin-top: 0 !important;
+        margin-top: 1rem;
         margin-bottom: 0.2rem;
     }
 
