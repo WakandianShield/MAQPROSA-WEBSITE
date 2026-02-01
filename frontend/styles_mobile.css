@@ -851,6 +851,7 @@
 
     .hero-stats div {
         justify-items: center;
+        margin-bottom: 0 !important;
     }
 
     .services {
@@ -884,9 +885,9 @@
     }
 }
 
-@media screen and (max-height: 700px) and (max-width: 768px) {
+@media screen and (max-height: 765px) and (max-width: 768px) {
     .hero-content {
-        padding-top: 9em;
+        padding-top: 10vh;
         gap: 0.4rem;
     }
 
@@ -922,10 +923,12 @@
     .hero-stats {
         gap: 0.5rem;
         margin-top: 0.3rem;
+        margin-bottom: 0 !important;
     }
 
     .hero-stats div {
         padding: 0.5rem 0.6rem;
+        margin-bottom: 0 !important;
     }
 
     .stat-number {
@@ -997,6 +1000,8 @@
 
     .hero-stats div {
         padding: 0.4rem 0.5rem;
+        margin-bottom: 0 !important;
+
     }
 
     .stat-number {
