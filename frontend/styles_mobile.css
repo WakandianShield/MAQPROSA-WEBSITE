@@ -907,6 +907,7 @@
     .hero-text h1 {
         font-size: 1.7rem;
         margin: 0;
+        margin-bottom: 1em;
         line-height: 1.15;
     }
 
