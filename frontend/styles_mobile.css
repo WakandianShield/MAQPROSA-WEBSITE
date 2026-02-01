@@ -887,15 +887,15 @@
 
 @media screen and (max-height: 765px) and (max-width: 768px) {
     .hero {
-        padding-top: 4em;
+        padding-top: 0;
     }
 
     .hero-content {
         gap: 0.3rem;
-        padding: 3em 5vw 1em;
+        padding: 4em 5vw 1em;
         margin-bottom: 0 !important;
         margin-top: 0 !important;
-        justify-content: flex-start;
+        justify-content: center;
     }
 
     .hero-text {
