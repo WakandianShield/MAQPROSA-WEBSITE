@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <link rel="stylesheet" href="frontend/styles.css">
     <link rel="stylesheet" href="frontend/styles_mobile.css">
+    <link rel="stylesheet" href="frontend/contact.css">
+    <link rel="stylesheet" href="frontend/contact_mobile.css">
     <script ref="script" src="frontend/script.js" defer></script>
     <script ref="script" src="frontend/script_navbar.js" defer></script>
     <link rel="icon" type="image/png" href="frontend/media/logo.png">
@@ -17,13 +18,11 @@
             <a href="index.html#home" class="nav-link nav-logo">
                 <img class="logo-nav" src="frontend/media/logo-nav.png" alt="Logo MAQPROSA">
             </a>
-
             <div class="menu-toggle" id="menuToggle">
                 <span></span>
                 <span></span>
                 <span></span>
             </div>
-
             <ul>
                 <li><a class="nav-link" href="us.html">Sobre Nosotros</a></li>
                 <li><a class="nav-link" href="services.html">Servicios</a></li>
@@ -32,77 +31,198 @@
             </ul>
         </nav>
     </header>
-
     <main>
-        <section class="hero" id="home">
-            <div class="hero-bg"></div>
-            <div class="hero-content">
-                <div class="hero-text">
+        <section class="hero-contact" id="home">
+            <div class="hero-bg-contact"></div>
+            <div class="hero-content-contact">
+                <div class="hero-text-contact">
                     <span class="hero-kicker">Contacto</span>
                     <h1>Estamos aquí para ayudarte</h1>
-                    <p>
-                        ¿Tienes preguntas o necesitas más información sobre nuestros productos y servicios? 
-                        No dudes en ponerte en contacto con nosotros. Nuestro equipo está listo para asistirte 
-                        y brindarte la mejor solución para tus necesidades industriales.
-                    </p>
+                    <p>Ponte en contacto con nosotros y descubre cómo podemos impulsar tu próximo proyecto industrial.</p>
+                    <div class="hero-actions">
+                        <a href="#contacto" class="btn hero-btn hero-btn--secondary">Más Información</a>
+                    </div>
                 </div>
             </div>
-
-            <div class="clients">
-                <div class="client-logos">
-                    <img class="img-client-logos" src="frontend/media/clients/molex.webp" alt="Cliente 1">
-                    <img class="img-client-logos" src="frontend/media/clients/regal.webp" alt="Cliente 2">
-                    <img class="img-client-logos" src="frontend/media/clients/SKF.webp" alt="Cliente 3">
-                    <img class="img-client-logos" src="frontend/media/clients/toray.webp" alt="Cliente 4">
-                    <img class="img-client-logos" src="frontend/media/clients/urrea.webp" alt="Cliente 5">
-                    <img class="img-client-logos" src="frontend/media/clients/usi.webp" alt="Cliente 6">
-                    <img class="img-client-logos" src="frontend/media/clients/molex.webp" alt="Cliente 1">
-                    <img class="img-client-logos" src="frontend/media/clients/regal.webp" alt="Cliente 2">
-                    <img class="img-client-logos" src="frontend/media/clients/SKF.webp" alt="Cliente 3">
-                    <img class="img-client-logos" src="frontend/media/clients/toray.webp" alt="Cliente 4">
-                    <img class="img-client-logos" src="frontend/media/clients/urrea.webp" alt="Cliente 5">
-                    <img class="img-client-logos" src="frontend/media/clients/usi.webp" alt="Cliente 6">
-                    <img class="img-client-logos" src="frontend/media/clients/molex.webp" alt="Cliente 1">
-                    <img class="img-client-logos" src="frontend/media/clients/regal.webp" alt="Cliente 2">
-                    <img class="img-client-logos" src="frontend/media/clients/SKF.webp" alt="Cliente 3">
-                    <img class="img-client-logos" src="frontend/media/clients/toray.webp" alt="Cliente 4">
-                    <img class="img-client-logos" src="frontend/media/clients/urrea.webp" alt="Cliente 5">
-                    <img class="img-client-logos" src="frontend/media/clients/usi.webp" alt="Cliente 6">
-                    <img class="img-client-logos" src="frontend/media/clients/molex.webp" alt="Cliente 1">
-                    <img class="img-client-logos" src="frontend/media/clients/regal.webp" alt="Cliente 2">
-                    <img class="img-client-logos" src="frontend/media/clients/SKF.webp" alt="Cliente 3">
-                    <img class="img-client-logos" src="frontend/media/clients/toray.webp" alt="Cliente 4">
-                    <img class="img-client-logos" src="frontend/media/clients/urrea.webp" alt="Cliente 5">
-                    <img class="img-client-logos" src="frontend/media/clients/usi.webp" alt="Cliente 6">
+        </section>
+        <section class="contact-section" id="contacto">
+            <div class="contact-container">
+                <div class="contact-header">
+                    <span class="section-kicker">Contáctanos</span>
+                    <h2>Múltiples formas de comunicarte con nosotros</h2>
+                    <p>Elige el canal que más te convenga y te responderemos lo antes posible.</p>
+                </div>
+                <div class="contact-grid">
+                    <a href="https://wa.me/523326802725" class="contact-card contact-card--whatsapp" target="_blank" rel="noopener">
+                        <div class="contact-card-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                            </svg>
+                        </div>
+                        <div class="contact-card-content">
+                            <h3>WhatsApp</h3>
+                            <p>+52 33 2680 2725</p>
+                            <span class="contact-card-action">Enviar mensaje →</span>
+                        </div>
+                    </a>
+                    <a href="tel:+523336708859" class="contact-card contact-card--phone">
+                        <div class="contact-card-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                            </svg>
+                        </div>
+                        <div class="contact-card-content">
+                            <h3>Teléfono</h3>
+                            <p>+52 33 3670 8859</p>
+                            <span class="contact-card-action">Llamar ahora →</span>
+                        </div>
+                    </a>
+                    <a href="mailto:Maqprosa.adm@gmail.com" class="contact-card contact-card--email">
+                        <div class="contact-card-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                <polyline points="22,6 12,13 2,6"></polyline>
+                            </svg>
+                        </div>
+                        <div class="contact-card-content">
+                            <h3>Correo Electrónico</h3>
+                            <p>Maqprosa.adm@gmail.com</p>
+                            <span class="contact-card-action">Enviar correo →</span>
+                        </div>
+                    </a>
+                    <a href="https://www.linkedin.com/company/maqprosa" class="contact-card contact-card--linkedin" target="_blank" rel="noopener">
+                        <div class="contact-card-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                            </svg>
+                        </div>
+                        <div class="contact-card-content">
+                            <h3>LinkedIn</h3>
+                            <p>MAQPROSA</p>
+                            <span class="contact-card-action">Ver perfil →</span>
+                        </div>
+                    </a>
+                    <a href="https://www.facebook.com/maqprosa" class="contact-card contact-card--facebook" target="_blank" rel="noopener">
+                        <div class="contact-card-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                            </svg>
+                        </div>
+                        <div class="contact-card-content">
+                            <h3>Facebook</h3>
+                            <p>@maqprosa</p>
+                            <span class="contact-card-action">Seguir página →</span>
+                        </div>
+                    </a>
+                    <a href="https://maps.app.goo.gl/YourLocationLink" class="contact-card contact-card--location" target="_blank" rel="noopener">
+                        <div class="contact-card-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                <circle cx="12" cy="10" r="3"></circle>
+                            </svg>
+                        </div>
+                        <div class="contact-card-content">
+                            <h3>Ubicación</h3>
+                            <p>Guadalajara, Jalisco, México</p>
+                            <span class="contact-card-action">Ver en mapa →</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="map-section" id="ubicacion">
+            <div class="map-container">
+                <div class="map-info">
+                    <span class="section-kicker">Nuestra ubicación</span>
+                    <h2>Visítanos en nuestras instalaciones</h2>
+                    <p>Contamos con instalaciones equipadas para atender todas tus necesidades de maquinado industrial.</p>
+                    <div class="map-details">
+                        <div class="map-detail-item">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                <circle cx="12" cy="10" r="3"></circle>
+                            </svg>
+                            <div>
+                                <h4>Dirección</h4>
+                                <p>Guadalajara, Jalisco, México</p>
+                            </div>
+                        </div>
+                        <div class="map-detail-item">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <polyline points="12 6 12 12 16 14"></polyline>
+                            </svg>
+                            <div>
+                                <h4>Horario de atención</h4>
+                                <p>Lunes a Viernes: 8:00 AM - 6:00 PM</p>
+                                <p>Sábado: 9:00 AM - 2:00 PM</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="https://maps.app.goo.gl/YourLocationLink" class="btn map-btn" target="_blank" rel="noopener">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polygon points="3 11 22 2 13 21 11 13 3 11"></polygon>
+                        </svg>
+                        Cómo llegar
+                    </a>
+                </div>
+                <div class="map-embed">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8265.29716269699!2d-103.33255174720152!3d20.59193662450971!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428b293394a0339%3A0xa8bdd4ad61870829!2sMaqprosa!5e0!3m2!1ses-419!2smx!4v1769815293856!5m2!1ses-419!2smx" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+        <section class="info-section-contact">
+            <div class="section-container">
+                <h2 class="info-title">Preguntas Frecuentes</h2>
+                <div class="info-grid">
+                    <div class="info-card info-card--faq">
+                        <div class="info-card-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+                                <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                            </svg>
+                        </div>
+                        <div class="faq-list">
+                            <details class="faq-item">
+                                <summary>¿Qué información necesitan para cotizar?</summary>
+                                <p>Planos técnicos o dibujos, material requerido, cantidad de piezas y tolerancias específicas si aplican.</p>
+                            </details>
+                            <details class="faq-item">
+                                <summary>¿Trabajan con proyectos pequeños?</summary>
+                                <p>Sí, atendemos desde prototipos unitarios hasta producciones en serie.</p>
+                            </details>
+                            <details class="faq-item">
+                                <summary>¿Ofrecen servicio de diseño?</summary>
+                                <p>Contamos con ingenieros que pueden ayudarte a optimizar tus diseños para manufactura.</p>
+                            </details>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
     </main>
-
     <footer>
         <div class="footer-content">
             <div class="footer-section">
                 <img class="footer-logo" src="frontend/media/logo-footer.png" alt="Logo MAQPROSA">
                 <p>Impulsamos la productividad con soluciones confiables.</p>
             </div>
-
             <div class="footer-section">
                 <h4>Navegación</h4>
                 <ul>
-                    <li><a href="productos.html">Sobre Nosotros</a></li>
-                    <li><a href="servicios.html">Servicios</a></li>
-                    <li><a href="equipo.html">Equipo</a></li>
-                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="us.html">Sobre Nosotros</a></li>
+                    <li><a href="services.html">Servicios</a></li>
+                    <li><a href="equipment.html">Equipo</a></li>
+                    <li><a href="contact.html">Contacto</a></li>
                 </ul>
             </div>
-
             <div class="footer-section">
                 <h4>Contacto</h4>
                 <a href="mailto:Maqprosa.adm@gmail.com">Email: Maqprosa.adm@gmail.com</a>
                 <a href="https://wa.me/523326802725">WhatsApp: +52 33 2680 2725</a>
                 <a href="tel:+523336708859">Teléfono: +52 33 3670 8859</a>
             </div>
-
             <div class="footer-section footer-map">
                 <h4>Ubicación</h4>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8265.29716269699!2d-103.33255174720152!3d20.59193662450971!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428b293394a0339%3A0xa8bdd4ad61870829!2sMaqprosa!5e0!3m2!1ses-419!2smx!4v1769815293856!5m2!1ses-419!2smx" width="400" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -112,7 +232,5 @@
             <p>&copy; 2026 MAQPROSA. Todos los derechos reservados.</p>
         </div>
     </footer>
-
-    
 </body>
 </html>
