@@ -43,6 +43,11 @@
         align-items: center;
     }
 
+    .hero-text-equipment p {
+        padding-left: 0 !important;
+        border-left: none !important;
+    }
+
     .equipment-section {
         padding: 3.5rem 5vw;
     }

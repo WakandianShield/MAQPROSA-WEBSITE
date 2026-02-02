@@ -52,6 +52,11 @@
         left: 50%;
         transform: translateX(-50%);
     }
+
+    .hero-text-us p {
+        padding-left: 0 !important;
+        border-left: none !important;
+    }
     
     .hero-actions-us {
         justify-content: center;
