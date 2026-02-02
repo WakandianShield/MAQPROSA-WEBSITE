@@ -24,6 +24,12 @@
 }
 
 @media screen and (max-width: 768px) {
+
+    .hero-equipment {
+        background-attachment: scroll;
+        background-size: cover;
+        background-position: center;
+    }
     
     .hero-equipment-content {
         padding: 0 3em;
