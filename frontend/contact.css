@@ -700,13 +700,13 @@ body {
 
 
 .info-grid {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 2rem;
+    display: flex;
+    justify-content: center;
 }
 
 
 .info-card {
+    width: 50%;
     background: rgba(255, 255, 255, 0.03);
     border: 1px solid rgba(255, 255, 255, 0.08);
     border-radius: 1.25rem;
