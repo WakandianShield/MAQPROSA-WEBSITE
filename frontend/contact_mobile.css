@@ -25,6 +25,7 @@
 
 @media screen and (max-width: 768px) {
     .hero-contact {
+        background-image: url(media/cta-bg.png);
         background-attachment: scroll;
         background-size: cover;
         background-position: center;
