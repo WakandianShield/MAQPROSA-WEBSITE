@@ -554,7 +554,6 @@ header > nav > ul {
 
 .about-services {
     position: relative;
-    padding: var(--section-padding);
     background: var(--section-bg);
     overflow: hidden;
 }
