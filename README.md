@@ -1,4 +1,4 @@
-<h1 align="center">MAQPROSA Website</h1>
+<h1 align="center">Maqprosa-Website</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white&style=plastic" />
