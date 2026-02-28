@@ -9,7 +9,7 @@
 <p align="center">
 Official website of <b>Maquinados Progresivos de Occidente S.A. de C.V. (MAQPROSA)</b>, a leading company in industrial machinery and services based in Guadalajara, Jalisco, Mexico.
 <br><br>
-MAQPROSA has over 10 years of experience providing comprehensive industrial solutions. This website showcases their services, equipment, and contact information.
+MAQPROSA has over 15 years of experience providing comprehensive industrial solutions. This website showcases their services, equipment, and contact information.
 </p>
 
 <h2 align="center">Description</h2>
@@ -70,7 +70,7 @@ Guadalajara, Jalisco, Mexico
 <h2 align="center">Contact</h2>
 
 <p align="center">
-Visit the contact page on the website for more information.
+Visit the contact page on the website for more information about them.
 </p>
 
 <p align="center">
