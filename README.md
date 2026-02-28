@@ -72,7 +72,3 @@ Guadalajara, Jalisco, Mexico
 <p align="center">
 Visit the contact page on the website for more information about them.
 </p>
-
-<p align="center">
-This website was developed with ❤️ for MAQPROSA.
-</p>
