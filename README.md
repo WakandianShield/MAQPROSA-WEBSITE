@@ -23,29 +23,22 @@ The project emphasizes clarity, credibility, smooth navigation,
 and a well-organized presentation of services, equipment, and company information.
 </p>
 
-<h2 align="center">Live Demo</h2>
+<h2 align="center">Features</h2>
 
-<p align="center">
-You can visit the live website
-<a href="https://wakandianshield.github.io/Maqprosa-Website/">
-<b>here</b>
-</a>
-</p>
-
-<p align="center">
-<img width="70%" alt="Captura de pantalla 2026-02-28 201636" src="https://github.com/user-attachments/assets/76e30877-7613-4a93-b36d-986976587ae6" />
-
-</p>
+- Fully responsive design (mobile and desktop)  
+- Structured industrial service presentation  
+- Dedicated "About Us" page  
+- Equipment showcase section  
+- Contact page for business inquiries  
+- SEO optimized structure  
+- Open Graph integration for social media sharing  
+- Clean and professional corporate interface
 
 <h2 align="center">Tech Stack</h2>
 
-<p align="center">
-HTML5 - Semantic structure and layout  
-<br>
-CSS3 - Styling and responsive design  
-<br>
-JavaScript - Interactive functionality and navigation  
-</p>
+- HTML5 - Semantic structure and layout  
+- CSS3 - Styling and responsive design  
+- JavaScript - Interactive functionality and navigation  
 
 <h2 align="center">Project Structure</h2>
 
@@ -69,16 +62,18 @@ MAQPROSA-WEBSITE/
         └── services/           # Service images
 </pre>
 
-<h2 align="center">Features</h2>
+<h2 align="center">Live Demo</h2>
 
-- Fully responsive design (mobile and desktop)  
-- Structured industrial service presentation  
-- Dedicated "About Us" page  
-- Equipment showcase section  
-- Contact page for business inquiries  
-- SEO optimized structure  
-- Open Graph integration for social media sharing  
-- Clean and professional corporate interface  
+<p align="center">
+You can visit the live website
+<a href="https://wakandianshield.github.io/Maqprosa-Website/">
+<b>here</b>
+</a>
+</p>
+
+<p align="center">
+<img width="70%" alt="Captura de pantalla 2026-02-28 201636" src="https://github.com/user-attachments/assets/76e30877-7613-4a93-b36d-986976587ae6" />
+</p>
 
 <h2 align="center">Contact</h2>
 
