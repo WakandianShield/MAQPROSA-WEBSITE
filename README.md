@@ -84,8 +84,7 @@ MAQPROSA-WEBSITE/
 
 <p align="center">
 If you want to contact the owner of the website for collaborations or professional inquiries, please use the official <a href="https://wakandianshield.github.io/Maqprosa-Website/contact.html">
-contact page
-</a> below.
+contact page</a> below.
 </p>
 
 <br>
